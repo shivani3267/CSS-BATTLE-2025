@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:grey ;
+}
+
+.phone{
+    width: 20%;
+    height: 80%;
+    /* background-color: whitesmoke; */
+    background-image: url("https://w0.peakpx.com/wallpaper/445/46/HD-wallpaper-flower-lock-screen-aesthetic-aesthetically-pleasing-flowers-happy-lock-screen-thumbnail.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 26px;
+    display: flex;
+    gap: 5px;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    border: 4px double black;
+    padding: 8px;
+}
+.cam{
+    width: 13px;
+    height: 13px;
+    border-radius: 8px;
+    border: 4px groove black;
+}
+.message{
+    width: 90%;
+    height: 13%;
+    background-color: white;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    /* flex-direction: column; */
+}
+.time,.day{
+    font-size: large;
+    font-weight: bold;
+    margin: 5px;
+}
+.time{
+    margin-top: 15px;
+}
+.message>img{
+    width: 42px;
+    height: 42px;
+    margin: 4px;
+}
+.notification>p{
+    color: grey;
+    font-size: small;
+}
+.music{
+    width: 80%;
+    height: 15%;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: url("https://i.ytimg.com/vi/vLUc0FBdpMA/maxresdefault.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-weight: bold;
+}
+audio{
+    background: none;
+    width: 96%;
+    height: 50%;
+}
+/*  */
